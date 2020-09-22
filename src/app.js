@@ -32,7 +32,7 @@ function errorHandler(error, req, res, next) {
   res.status(500).json(response);
 }
 
-app.use(errorHandler());
+app.use(errorHandler);
 
 module.exports = app;
 
